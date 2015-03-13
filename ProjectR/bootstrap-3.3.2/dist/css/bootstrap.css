@@ -3,7 +3,10 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
- 
+ a.pagerLink {
+    text-decoration: none !important;
+}
+
  .pagefont{
   font-family: Arial, Geneva, Helvetica, sans-serif;
  }
@@ -26,18 +29,13 @@ img.mainimage {
     z-index: -1;
 }
 
-.shadow {
-   box-shadow: 3px 3px 5px #888888;
-}
-
 .logo{
   background: url(../../../Images/logo.png) no-repeat scroll 0 0 rgba(0,0,0,0);
   display: block;
   height: 23px;
-  left: 47px;
-  margin-top: -11px;
+  left: 15px;
   position: absolute;
-  top: 50%;
+  top: 15px;
   width: 89px;
 }
 
@@ -4167,6 +4165,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-static-top {
   z-index: 1000;
   border-width: 0 0 1px;
+  margin: 0px;
 }
 @media (min-width: 768px) {
   .navbar-static-top {
@@ -6390,6 +6389,7 @@ button.close {
 }
 .affix {
   position: fixed;
+  width: 100%;
 }
 @-ms-viewport {
   width: device-width;

@@ -7,7 +7,6 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-   <link href="bootstrap/css/projectr2.css" rel="stylesheet">
   <!-- Bootstrap -->
   <link href="bootstrap-3.3.2/dist/css/bootstrap.css" rel="stylesheet">
   <link href="bootstrap-3.3.2/dist/css/bootstrap-theme.css" rel="stylesheet">
@@ -26,7 +25,7 @@
           </header>
     <!--====================Nav Bar=============================== -->
 <!-- Fly-in navbar -->
-<div class="navbar navbar-inverse navbar-static-top affix-top" id="nav">
+<div class="navbar navbar-inverse navbar-static-top affix" id="nav">
     <div class="container">
       <div class="navbar-header">
         <header><a class="logo" href="#"></a></header>
@@ -49,8 +48,8 @@
     <div >
       <div role="listbox">
         <div>
-          <object width="100%" height="487px" data="Videos/fantv.mp4"></object>
-          <img class="mainimage" src="Images/2.png">
+          <!--<object width="100%" height="487px" data="Videos/fantv.mp4"></object>-->
+          <img width="100%" height="487px" src="Images/2.png">
         </div>
       </div>
     </div>
@@ -69,11 +68,9 @@
 <!-- Riddle Appears Form--> 
     </section>
 <!--==============Section2=========================-->
-		<section id="riddle" class="container" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+		<section id="riddle" class="container">
       <h3 class="text-center">Game Intro<small> - Riddle Race </small></h3>
-      <dl class="dl-horizontal">
-         <dd class="lead">2-5 players.  A game is 2 riddles and one master riddle.  Each riddle allows for 3 guesses, then a final 4th guess after a time penalty.  After each failed attempted a subtle hint is given.  Each failed guess adds extra time to your counter.</dd>
-      </dl>
+         <p class="lead text-center">2-5 players.  A game is 2 riddles and one master riddle.  Each riddle allows for 3 guesses, then a final 4th guess after a time penalty.  After each failed attempted a subtle hint is given.  Each failed guess adds extra time to your counter.</p>
     <div class="container marketing">
      <div class="row">
       <div class="col-lg-4">
@@ -102,9 +99,7 @@
 <!-- ===================Section3===================== -->
   <section id="modesOfPlay" class="container">
    <h3 class="text-center">Modes of Play<small> - Riddle Race </small></h3>
-   <dl class="dl-horizontal">
-    <dd class="lead">Brains and Power Ups! Power ups are won or bought with brains in the game.  Brains can be won, bet, or bought in the game store.</dd>
-    </dl>
+    <p class="lead text-center">Brains and Power Ups! Power ups are won or bought with brains in the game.  Brains can be won, bet, or bought in the game store.</p>
   <div class="container marketing">
     <div class="row ">
       <div class="col-lg-4">
@@ -145,22 +140,21 @@
 <!-- ===================END SECTION 4===================== -->
 	</article>
 <!-- ===================Footer===================== -->
-<footer class="container bg-info" border-radius="150px">
+<footer class="container">
   <p class="pull-right">
-    <a href="#"> <img class="shadow" rel="icon" src="Images/facebook.png"  width="25px" height="25px">  </a>
-    <a href="#"> <img class="shadow" rel="icon" src="Images/twitter.png"   width="25px" height="25px">  </a>
-    <a href="#"> <img class="shadow" rel="icon" src="Images/instagram.png" width="25px" height="25px"> | </a>
-   <a href="#"> Back to top </a>
+    <a class="pagerLink" href="#"> <img  class="img-circle" rel="icon" src="Images/facebook.png"  width="25px" height="25px">  </a>
+    <a class="pagerLink" href="#"> <img  class="img-circle" rel="icon" src="Images/twitter.png"   width="25px" height="25px">  </a>
+    <a class="pagerLink" href="#"> <img  class="img-circle" rel="icon" src="Images/instagram.png" width="25px" height="25px"> | </a>
+    <a class="pagerLink" href="#"> Back to top </a>
   </p>
   <p>
-    <a data-toggle="modal" data-target="#team" href="#" class="btn-info:hover">Team |</a>
-    <a href="#">Join us | </a>
-    <a href="#">Legal | </a>
-    <a href="#">FAQ | </a>
+    <a class="pagerLink" data-toggle="modal" data-target="#team" href="#" class="btn-info:hover">Team |</a>
+    <a class="pagerLink" href="#">Join us | </a>
+    <a class="pagerLink" href="#">Legal | </a>
+    <a class="pagerLink" href="#">FAQ</a>
   </p>
 </footer>
 <!-- ===================END FOOTER===================== -->
-
 <!-- Team Modal ================================================== -->
 <div class="modal fade" id="team">
   <div class="modal-dialog">
@@ -191,7 +185,6 @@
 <!-- /.Team Modal -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/custom.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap-3.3.2/dist/js/bootstrap.min.js"></script>
 </body>
